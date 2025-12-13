@@ -138,10 +138,7 @@ img {
     padding: 120px 0;
 
 }
-.team-list{
-    display:flex;
-    gap: 24px;
-}
+
 .team-item{
     background-color: #fff;
 }
@@ -159,16 +156,7 @@ img {
     padding: 120px 0;
 }
 
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
-}
-.container {
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+
 .features-text,
 .team-position,
 .portfolio-type,
@@ -177,11 +165,7 @@ img {
     font-size: 16px;
     letter-spacing: 0.02em;
 }
-.features-list{
-    display:flex;
-    gap: 24px;
 
-}
 .features-item{
     text-align:left;
 }
