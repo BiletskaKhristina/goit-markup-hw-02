@@ -126,16 +126,17 @@ img {
     background-color: #f4f4fd
 }
 .team-item{
-    background-color: #ffffff;
+    background-color: #fff;
+}
+.team-name
+.team-position{
+    text-align:center;
 }
 .team-title,
 .portfolio-title {
     font-size: 36px;
-    
-}
-.team-name,
-.team-position{
     text-align:center;
+    
 }
 
 .features-text,
