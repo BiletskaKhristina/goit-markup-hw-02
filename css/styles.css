@@ -77,7 +77,8 @@ img {
 /* ======== HERO ======== */
 .hero {
     background-color: #2e2f42;
-    text-align: center;
+    position: relative;
+   
 }
 
 .hero-title {
@@ -86,6 +87,7 @@ img {
     max-width: 496px;
     letter-spacing: 0.02em;
     line-height: 1.07;
+    text-align:center;
 }
 
 .hero-btn {
@@ -97,6 +99,10 @@ img {
     border-radius: 4px;
     border: none;
     transition: background-color 250ms ease;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+
 }
 
 .hero-btn:hover,
@@ -117,6 +123,7 @@ img {
 
 .features-title {
     font-size: 20px;
+    text-align: left;
 
 }
 
@@ -148,6 +155,13 @@ img {
     color: #434455;
     font-size: 16px;
     letter-spacing: 0.02em;
+}
+.features-list{
+    display:flex;
+
+}
+.features-item{
+    text-align:left;
 }
 .team-name,
 .portfolio-name{
